@@ -1,0 +1,99 @@
+@tailwind base;
+
+@layer base {
+  /* For `url()`, Comma escaping is not always necessary. */
+  /* For some properties, the font will still work even if not defined, for document purposes.*/
+  @font-face {
+    font-style: normal;
+    font-weight: 100 900;
+    src:
+      url('/public/fonts/Noto_Sans_Thai/NotoSansThai-VariableFont_wdth\,wght.woff2')
+        format('woff2'),
+      url('/public/fonts/Noto_SansThai-VariableFont_wdth\,wght.ttf')
+        format('truetype');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai';
+    font-display: swap;
+  }
+
+  @font-face {
+    font-style: normal;
+    font-weight: 100;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Thin.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 200;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-ExtraLight.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 300;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Light.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 300;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Light.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 400;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Regular.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 500;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Medium.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 600;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-SemiBold.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 700;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Bold.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 800;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-ExtraBold.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+  @font-face {
+    font-style: normal;
+    font-weight: 900;
+    src: url('/public/fonts/Noto_Sans_Thai_Looped/NotoSansThaiLooped-Black.woff2');
+    font-stretch: normal;
+    font-family: 'Noto Sans Thai Looped';
+    font-display: swap;
+  }
+}
